@@ -1,0 +1,23 @@
+{
+  "name": "placementapp",
+  "version": "1.0.0",
+  "description": "This app is my second assingment of CLP",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "debug": "^2.6.6",
+    "express": "*",
+    "mongoose": "*",
+    "validator": "*",
+    "winston": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nikhil Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
