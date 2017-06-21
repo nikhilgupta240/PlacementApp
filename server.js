@@ -18,6 +18,6 @@ app.use(bodyParser.json());
 var router = require('./api');
 app.use('/api', router);
 
-app.listen(8000, function() {
+app.listen(process.env.PORT, function() {
   console.log('listening app on 8000')
 });
